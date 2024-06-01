@@ -17,7 +17,7 @@ headers = {
     "api-key": AZURE_OPENAI_API_KEY,
 }
 
-file_path = r"Data\audio.mp3"
+file_path = r"Data\audio.m4a"
 
 # Open the file in binary mode and close it after reading
 with open(file_path, "rb") as file:
